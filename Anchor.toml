@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+twitter = "6HAgSokzJrNgtCHrHGimXDX5YkK2QnsFVkPPQRw13gx9"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/apple/validator-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
